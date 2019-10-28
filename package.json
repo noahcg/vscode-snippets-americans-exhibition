@@ -1,0 +1,26 @@
+{
+  "name": "amexsnippets",
+  "displayName": "amexsnippets",
+  "description": "Starter html for prototyping Americans Exhibition panels",
+  "version": "1.0.0",
+  "publisher": "noah",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noahcg/vscode-snippets-americans-exhibition"
+  },
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.39.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
